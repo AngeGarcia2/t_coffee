@@ -43,19 +43,40 @@ A linguagem de programação utilizada para desenvolver o trabalho foi Python 3.
 
 RESULTADOS
 
-
-
-
 Utilizar vetorização TF-IDF e cálculo de similaridade do cosseno para encontrar cafés com descrições semelhantes, com base em uma escolha feita pelo usuário.
 
+Digite o nome (ou parte do nome) do café que deseja buscar: catuai
+Cafés encontrados:
+[595] Panama Elida Natural Catuai
+[1123] Honduras Catuai/Bourbon
+[1426] Guatemala Finca El Principito Yellow Catuai
+[1516] Elida Estate Dragonfly Catuai Lot 13
+[1519] Elida Estate ASD Natural Catuai 15
+Digite o número (índice) do café para ver recomendações: 1426 #aqui se faz ***********8 exemplo que posso escrever
+====================================================================================================
+Café de referência:
 
+[1426] Nome: Guatemala Finca El Principito Yellow Catuai
+Avaliação (em português):
+Em tons de cacau e especiarias.Cacau em pó, cereja preta, carvalho de corte fresco, pistache, especiarias para aroma e copo.Estrutura doce com acidez equilibrada;Fela de boca completa e xarope.O acabamento é noz e movido a cacau, apoiado por notas de cereja e carvalho pretos.
+====================================================================================================
 
+Recomendações similares:
 
+[1075] Nome: Guatemala Acetenango Gesha Lot 2
+Similaridade: 0.65
+Avaliação (em português): Em tons de cacau e especiarias.Cacau em pó, cereja, abeto, avelã, canela em aroma e copo.Estrutura doce com acidez brilhante;Fela de boca cheia e acetinada.O acabamento é noz e movido a cacau, apoiado por notas de cereja e abeto.
+————————————————————————————————————————————————————————————————————————————————————————————————————
+[840] Nome: El Salvador Pacamara
+Similaridade: 0.63
+Avaliação (em português): Ricamente doce e doce, em tons de cacau.Cacau em pó, flores de lúpulo, cereja preta, carvalho de corte fresco, xarope de agave em aroma e copo.Estrutura equilibrada e agridoce com acidez rápida;Pluxh, sensação na boca de xarope.Termine os consolida em cereja e carvalho pretos em tons de cacau.
+————————————————————————————————————————————————————————————————————————————————————————————————————
+[1366] Nome: Top Blend 2
+Similaridade: 0.46
+Avaliação (em português): Tonimado de frutas, acionado por cacau.Cacau em pó, cereja preta, magnólia, abeto fresco, raspas de laranja em aroma e copo.Estrutura doce com acidez rápida;Fela da boca aveludada e suave.Acabamento de cacau e fruto e com estrutura de madeira.
+————————————————————————————————————————————————————————————————————————————————————————————————————
 
 O valor da similaridade do cosseno varia de:
 0.0: nenhuma similaridade entre os textos
-
-
 1.0: textos idênticos (ou praticamente iguais)
 exemplo: Isso significa que a descrição desse café é 62% semelhante, matematicamente falando, à descrição do café que você escolheu como referência.
-
